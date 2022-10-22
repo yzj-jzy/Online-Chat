@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "click-outside-vue3": "^4.0.1",
+    "lottie-web": "^5.9.6",
+    "vuex": "^4.0.2"
+  }
+}
