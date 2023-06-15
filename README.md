@@ -1,24 +1,11 @@
-# chatroom
+# Features
 
-## Project setup
-```
-yarn install
-```
+- [ ] Messaging
+- [ ] History Message
+- [ ] Read Recieption
+- [x] System Default Emoj 
+- [x] View Friend List
+- [x] Add Friend By ID
+- [x] Update User prfile(Avatar/Name/Signature)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
