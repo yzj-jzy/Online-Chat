@@ -17,7 +17,7 @@ npm install --force
 npm install lottie-web
 ```
 
-2. Run services and open 8080 portal in browser
+2. Run services and open 8080 [portal](http://localhost:8080/#/)  in browser
 ```
 npm run serve
 ```
