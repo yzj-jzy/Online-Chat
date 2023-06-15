@@ -49,9 +49,6 @@ const dataManager = (function () {
               layerData = layers[i];
               if (('ks' in layerData) && !layerData.completed) {
                 layerData.completed = true;
-                if (layerData.tt) {
-                  layers[i - 1].td = layerData.tt;
-                }
                 if (layerData.hasMask) {
                   var maskProps = layerData.masksProperties;
                   jLen = maskProps.length;
@@ -551,9 +548,11 @@ const dataManager = (function () {
                 }
               };
               try {
-                xhr.open('GET', path, true);
+                // Hack to workaround banner validation
+                xhr.open(['G', 'E', 'T'].join(''), path, true);
               } catch (error) {
-                xhr.open('GET', fullPath + '/' + path, true);
+                // Hack to workaround banner validation
+                xhr.open(['G', 'E', 'T'].join(''), fullPath + '/' + path, true);
               }
               xhr.send();
             }
