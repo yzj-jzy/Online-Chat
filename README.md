@@ -1,5 +1,12 @@
 # Features
 
+## Bytedance proposal
+![Demo Screenshot](https://github.com/yzj-jzy/Online-Chat/blob/main/Demo/Goal.svg)
+## Interface
+![Demo Screenshot](https://github.com/yzj-jzy/Online-Chat/blob/main/Demo/Chat.jpg)
+![Demo Screenshot](https://github.com/yzj-jzy/Online-Chat/blob/main/Demo/Login.jpg)
+![Demo Screenshot](https://github.com/yzj-jzy/Online-Chat/blob/main/Demo/Register.jpg)
+
 - [x] System Default Emoj 
 - [x] View Friend List
 - [x] Add Friend By ID
